@@ -135,10 +135,10 @@ function renderJobs(tab = "all") {
                     </p>
                 </div>
 
-                <button onclick="deleteJob(${job.id})"
-                    class="btn btn-circle btn-sm btn-ghost border">
-                    🗑️
-                </button>
+             <button onclick="deleteJob(${job.id})"
+         class="btn btn-circle btn-sm btn-ghost border">
+         <i class="fa-regular fa-trash-can"></i>
+             </button>
             </div>
 
             <div class="mt-4">
