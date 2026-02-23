@@ -40,7 +40,7 @@ let jobs = [
         location: "Seattle, WA",
         type: "Full-time",
         salary: "$140,000 - $190,000",
-        description: "Design and maintain scalable backend systems using Python and AWS.",
+        description: "Design and maintain scalable backend systems using Python and AWS. Work with modern DevOps practices and cloud infrastructure.",
         status: "all",
         applied: false
     },
@@ -51,7 +51,7 @@ let jobs = [
         location: "Austin, TX",
         type: "Full-time",
         salary: "$110,000 - $150,000",
-        description: "Create beautiful and functional user interfaces.",
+        description: "Create beautiful and functional user interfaces for our suite of products. Strong design skills and frontend development expertise required.",
         status: "all",
         applied: false
     },
@@ -62,7 +62,7 @@ let jobs = [
         location: "New York, NY",
         type: "Full-time",
         salary: "$130,000 - $170,000",
-        description: "Build enterprise applications with JavaScript and modern frameworks.",
+        description: "Build enterprise applications with JavaScript and modern frameworks. We offer competitive compensation, health insurance, and professional development opportunities.",
         status: "all",
         applied: false
     },
