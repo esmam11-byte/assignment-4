@@ -94,8 +94,11 @@ function updateCounts() {
     document.getElementById("totalCount").textContent = jobs.length;
     document.getElementById("interviewCount").textContent =
         jobs.filter(j => j.status === "interview").length;
+
     document.getElementById("rejectedCount").textContent =
         jobs.filter(j => j.status === "rejected").length;
+
+    document.getElementById("total2").textContent = jobs.length;
 }
 
 function renderJobs(tab = "all") {
