@@ -109,6 +109,8 @@ function renderJobs(tab = "all") {
         ? jobs
         : jobs.filter(j => j.status === tab);
 
+    document.getElementById("total2").textContent = filtered.length;
+
     if (filtered.length === 0) {
         container.innerHTML = `
             <div class="bg-base-100 p-16 text-center rounded-xl shadow-sm">
@@ -139,10 +141,10 @@ function renderJobs(tab = "all") {
                     </p>
                 </div>
 
-             <button onclick="deleteJob(${job.id})"
-         class="btn btn-circle btn-sm btn-ghost border">
-         <i class="fa-regular fa-trash-can"></i>
-             </button>
+                <button onclick="deleteJob(${job.id})"
+                    class="btn btn-circle btn-sm btn-ghost border">
+                    <i class="fa-regular fa-trash-can"></i>
+                </button>
             </div>
 
             <div class="mt-4">
