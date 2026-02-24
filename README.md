@@ -35,5 +35,4 @@ Q5:
  What is the difference between preventDefault() and stopPropagation() methods?
  Ans: preventDefault() stops the browser’s default action. Example: preventing a form from submitting or a link   from navigating.
     stopPropagation() stops the event from bubbling up the DOM, meaning parent elements won’t receive the event.
-
     So at last we can say preventDefault() blocks the browser behavior, while stopPropagation() blocks the event flow.
