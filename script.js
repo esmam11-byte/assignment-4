@@ -92,6 +92,7 @@ let jobs = [
 
 function updateCounts() {
     document.getElementById("totalCount").textContent = jobs.length;
+
     document.getElementById("interviewCount").textContent =
         jobs.filter(j => j.status === "interview").length;
 
